@@ -1,5 +1,10 @@
 {
     "ignoreTestFiles": "*.js",
-    "testFiles": "**/*.{feature,features}",
-    "reporter": "cypress-multi-reporters"
+    "reporter": "cypress-multi-reporters",
+    "testFiles": [
+      "post.feature",
+      "get.feature",
+      "put.feature",
+      "delete.feature"
+    ]
   }
